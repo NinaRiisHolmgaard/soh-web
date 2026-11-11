@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navigation-->
+    <header>
+		<nav>
+			<a class="logo" href="index.html"><img src="images/logo.png" alt="company logo which is an orange pentagon"></a>
+			<ul>
+				<li><a href="#">Om</a></li>
+				<li><a href="index.html">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+
+     <!--Kontaktform - hovedindhold--> 
+    <main class="kontaktform">
+        <h1>Skriv for hjælp</h1>
+            <p class="kontakt-tekst">Få hjælp til at tjekke eller andmelde en hjemmeside</p>
+
+       <form>
+        <label for="Skriv dit navn">Navn</label>
+        <input id="Skriv dit navn" type="text" required>
+
+        <label for="Skriv din mail">E-mail</label>
+        <input id="Skriv din mail" type="e-mail">
+
+        <label for="Skriv din adresse">Adresse</label>
+        <input id="Skriv din adresse" type="text">
+
+        <label for="Skriv dit telefonnummer">Telefon</label>
+        <input id="Skriv dit telefonnummer" type="tel">
+
+       <!--Dropdown--> 
+
+        <div class="custom select">
+            <label for="Region">Vælg hvad du vil have hjælp til</label>
+            <select id="Region">
+                <option value="0" selected="true" disabled>Vælg</option>
+                <option value="1">Tjek om en hjemmeside er sikker</option>
+                <option value="2">Anmeld en hjemmeside</option>
+                <option value="3">Andet</option>
+               
+            </select>
+        </div>
+
+        <!--chechbox-->
+
+        <fieldset class="checkbox">
+            <Legend>Hvilken hjælp ønsker du?</Legend>
+            <div>
+                <input type="checkbox" id="Tjek hjemmeside">
+                <label for="Tjek hjemmeside">Tjek om en hjemmeside er sikker</label>
+            </div>
+
+             <div>
+                <input type="checkbox" id="Anmeld hjemmeside">
+                <label for="Anmeld hjemmeside">Anmeld hjemmeside</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Tjek noget andet">
+                <label for="Tjek noget andet">Andet</label>
+            
+
+        </fieldset> 
+
+        </div>
+             <label for="Indtast hjemmeside">Hjemmeside</label>
+        <input id="Indtast hjemmeside" type="Indtast hjemmesidens URL">
+        <br>
+<label for="Besked">Besked</label>
+<textarea id="Besked" cols="30" rows="10"></textarea>
+
+<fieldset>
+    <Legend>Må vi kontakte dig på telefon</Legend>
+    <input id="ja" type="radio" name="Kontakt">
+    <label for="ja">Ja</label>
+
+    <input id="Nej" type="radio" name="Kontakt">
+    <label for="Nej">Nej</label>
+</fieldset>
+
+<input type="submit" name="submit" value="Send">
+
+
+       </form>
+    </main>
+</body>
+</html>
