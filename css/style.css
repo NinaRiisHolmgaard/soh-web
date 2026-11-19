@@ -1,8 +1,8 @@
-/*Generel styling*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
 
-* { /*alt på siden bliver påvirket*/
-	box-sizing: border-box; /*Padding og border inkluderes i bredde og højde*/
+* { 
+	box-sizing: border-box; 
 }
 
 body {
@@ -23,7 +23,7 @@ img {
 
 
 h1{
-	text-transform: uppercase; /*Teksten transformeres til udelukkende at være store bogstaver*/
+	text-transform: uppercase; 
 }
 
 h2, h3, h4 {
@@ -56,7 +56,7 @@ text-decoration: underline;
 	background-color: #fff;
 }
 
-.logo-img {
+.logo img {
 	width: 63px;
 }
 
