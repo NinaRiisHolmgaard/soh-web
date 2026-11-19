@@ -86,6 +86,12 @@ text-transform: uppercase;
 
 .menu a [aria-current="page"] {
 	border-bottom-color: #2D55A6;
+	text-decoration: underline;
+
+}
+
+.menu a.active {
+	border-bottom-color: #2D55A6;
 }
 
 
@@ -407,9 +413,9 @@ nav li a {
 	text-transform: uppercase;
 }
 
-nav a:hover{
+nav a:hover {
 	color: #2D55A6;
-	transition: 0.5s; kaber en mere blød overgang mellem linkfarvern
+	transition: 0.5s; 
 }
 
 main{
