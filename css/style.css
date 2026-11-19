@@ -387,7 +387,7 @@ text-transform: uppercase;
 }
 
 .logo img{
-	height: 50px;
+	height: auto;
 }
 
 nav ul{
