@@ -428,8 +428,9 @@ main{
   margin: 0 auto; /*Centrerer elementet på siden*/
 }
 
-input[type=text], input[type=e-mail], input[type=adresse], input[type=tel], input[type=hjemmeside], select, textarea{
+input[type=text], input[type=e-mail], input[type=adresse], input[type=tel], input[type=hjemmeside], select, textarea, button{
 
+	font: inherit;
 	width: 100%;
 	padding: 1em;
 	border: 1px solid #c5c5c5;
