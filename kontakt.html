@@ -24,22 +24,22 @@
             <p class="kontakt-tekst">Få hjælp til at tjekke eller andmelde en hjemmeside</p>
 
        <form>
-        <label for="Skriv dit navn">Navn</label>
-        <input id="Skriv dit navn" type="text" required>
+        <label class="visually-hidden" for="Navn">Navn</label>
+        <input id="Navn" type="text" placeholder="Navn" required>
 
-        <label for="Skriv din mail">E-mail</label>
-        <input id="Skriv din mail" type="e-mail">
+        <label class="visually-hidden" for="Skriv din mail">E-mail</label>
+        <input id="Skriv din mail" type="e-mail" placeholder="E-mail">
 
-        <label for="Skriv din adresse">Adresse</label>
-        <input id="Skriv din adresse" type="text">
+        <label class="visually-hidden" for="Skriv din adresse">Adresse</label>
+        <input id="Skriv din adresse" type="text" placeholder="Adresse">
 
-        <label for="Skriv dit telefonnummer">Telefon</label>
-        <input id="Skriv dit telefonnummer" type="tel">
+        <label class="visually-hidden" for="Skriv dit telefonnummer">Telefon</label>
+        <input id="Skriv dit telefonnummer" type="tel" placeholder="Telefon">
 
        <!--Dropdown--> 
 
         <div class="custom select">
-            <label for="Region">Vælg hvad du vil have hjælp til</label>
+            <label for="Region">Hvad ønsker du hjælp til?</label>
             <select id="Region">
                 <option value="0" selected="true" disabled>Vælg</option>
                 <option value="1">Tjek om en hjemmeside er sikker</option>
@@ -49,31 +49,14 @@
             </select>
         </div>
 
-        <!--chechbox-->
-
-        <fieldset class="checkbox">
-            <Legend>Hvilken hjælp ønsker du?</Legend>
-            <div>
-                <input type="checkbox" id="Tjek hjemmeside">
-                <label for="Tjek hjemmeside">Tjek om en hjemmeside er sikker</label>
-            </div>
-
-             <div>
-                <input type="checkbox" id="Anmeld hjemmeside">
-                <label for="Anmeld hjemmeside">Anmeld hjemmeside</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="Tjek noget andet">
-                <label for="Tjek noget andet">Andet</label>
-            
-
-        </fieldset> 
+       
 
         </div>
-             <label for="Indtast hjemmeside">Hjemmeside</label>
-        <input id="Indtast hjemmeside" type="Indtast hjemmesidens URL">
+             <label class="visually-hidden" for="hjemmeside">Hjemmeside</label>
+        <input id="hjemmeside" type="hjemmeside" placeholder="Hjemmeside">
+        
         <br>
+        
 <label for="Besked">Besked</label>
 <textarea id="Besked" cols="30" rows="10"></textarea>
 
