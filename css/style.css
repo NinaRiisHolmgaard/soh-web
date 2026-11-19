@@ -85,7 +85,7 @@ text-transform: uppercase;
 
 
 .menu a [aria-current="page"] {
-	border-bottom: #2D55A6;
+	border-bottom-color: #2D55A6;
 }
 
 
@@ -379,7 +379,7 @@ text-transform: uppercase;
 
 
 /*Navigation start*/
-header{
+.header{
 	background-color: #fff;
 	height: 5em;
 	padding: 1em;
@@ -403,18 +403,19 @@ nav li a {
 	text-decoration: none;
 	padding: 1em;
 	font-size: 20px;
-	color:#fff;
+	color: #2D55A6;
 	text-transform: uppercase;
 }
 
 nav a:hover{
 	color: #2D55A6;
-	transition: 0.5s; /*skaber en mere blød overgang mellem linkfarverne*/
+	transition: 0.5s; kaber en mere blød overgang mellem linkfarvern
 }
 
 main{
     padding: 0 2em 2em;
 }
+
 
 
 /*Kontaktform*/
